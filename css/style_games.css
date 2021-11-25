@@ -1,0 +1,119 @@
+*{margin: 0px; padding: 0px;}
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: #11032b;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-around;
+}
+.nav li{
+    list-style-type: none;
+    display: inline;
+    font-size: 200%;
+    font-family: Times, serif; 
+    font-style: italic;
+    padding: 20px 50px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+} 
+.nav a:hover{
+    color: #a590b9;
+}
+.number p{
+    font-size: 110%;
+    font-family: Times, serif; 
+    font-style: italic;
+}
+.main{
+    width: 100%;
+    height: 1000px;
+    background-color: #f3f3f3;
+}
+.main h1{
+    padding: 50px 550px 20px;
+    font-family: monospace;
+}
+.main h3{
+    padding: 0px 592px;
+    font-family: monospace;
+}
+.main img{
+    width: 960px;
+    height: 560px;
+    margin: 20px 0px 0 300px;
+    border-radius: 20px;
+} 
+.alist{
+    background-color:#361c42;
+    width: 320px;
+    height: 220px;
+    margin: 20px 300px;
+    color: #fff;
+    border-radius: 10px;
+}
+.alist ul{
+    padding: 16px 40px;
+}
+.alist li{
+    list-style-type: none;
+    font-family: Times, serif; 
+    font-style: italic;
+    font-size: 110%;
+    padding-top: 15px;
+}
+.ainfo{
+    background-color:#361c42;
+    width: 610px;
+    height: 219px;
+    margin: -241px 650px;
+    color: #fff;
+    border-radius: 10px;
+}
+.ainfo p{
+    font-family: Times, serif; 
+    font-style: italic;
+    padding: 25px 40px;
+    font-size: 110%;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: #11032b;
+    display: flex;
+    justify-content: flex-start;
+}
+.block1{
+    background-color: white;
+    width: 220px;
+    height: 150px;
+    margin: 30px 0 0 170px;
+}
+.block1 li{
+    list-style-type: none;
+    font-family: Times, serif; 
+    font-style: italic;
+    font-size: 100%;
+    padding: 10px 30px 9px;
+}
+.block2{
+    background-color: white;
+    width: 700px;
+    height: 150px;
+    margin: 30px 50px;
+}
+.footer p{
+    font-family: Times, serif; 
+    font-style: italic;
+    color: #361c42;
+    padding: 25px;
+}
+.logo1{
+    margin: 70px;
+}
+.logo1 img{
+    border-radius: 100%;
+}

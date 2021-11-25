@@ -1,0 +1,12 @@
+let name = prompt("Введите ваше имя:")
+let surname = prompt("Введите вашу фимилию:")
+let age = prompt("Введите ваш возраст:")
+let speciality = prompt("Введите вашу специальность:")
+let dateofbirth = prompt("Введите вашу дату рождения:")
+let aboutyou = prompt("Теперь расскажите немного о себе:")
+document.getElementById('name').textContent = "Имя: " 
+document.getElementById('surname').textContent = "Фамилия: " + surname
+document.getElementById('age').textContent = "Возраст: " + age
+document.getElementById('speciality').textContent = "Специальность: " + speciality
+document.getElementById('dateofbirth').textContent = "Дата рождения: " + dateofbirth
+document.getElementById('aboutyou').textContent = aboutyou
